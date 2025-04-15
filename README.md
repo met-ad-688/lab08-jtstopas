@@ -7,8 +7,8 @@ ___
 The Residuals vs Predicted plot, with a dashed line representing exact forecasts, shows the viewer the measured residuals (actual – predicted) of this regression model.  It's easy to spot a ‘handful’ of underpredicted values around the 95K mark, which is interesting, but with no other clear or obvious patterns that would suggest non-linearity.          
 ___
 ![Figure 3](figures/figure_3.png)
-The Histogram of Residuals visually shows us the distribution of the residuals, as suggested.  Generally, this plot shows the viewer the occurrences are 'visually' close to normally distributed, but with some right skew existing.
+The Histogram of Residuals visually shows us the distribution of the residuals, as suggested.  Generally, this plot shows the viewer the occurrences are 'visually' close to normally distributed, but with some slight right skew.
 ___
 ![Figure 4](figures/figure_4.png)
-The Quantile-Quantile plot is another way to check on the distribution of the residuals.  This one shows us an obvious S-shape that is consistent with right-skewness and also some strong tails, on both ends, that are likely due to a repeated occurrence of outliers, both positive and negative.  
+The Quantile-Quantile plot is another way to check on the distribution of the residuals.  This one shows us an S-shape that is often consistent with right-skewness but is also showing some very strong tails, on both ends, that are likely due to a repeated occurrence of outliers, both in the positive and negative directions.  
 ___
