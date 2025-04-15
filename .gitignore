@@ -170,3 +170,5 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 lightcast_job_postings.csv
+
+downloaded_file.csv
